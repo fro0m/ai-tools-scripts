@@ -1,0 +1,22 @@
+# Editor / OS
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Local proxy / env overrides (may contain secrets)
+*.rc
+.env
+.env.*
+
+# Downloaded AppImages / archives (kept out of VCS)
+*.AppImage
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# VS Code user data created by portable install
+vscode-downloader/data/
